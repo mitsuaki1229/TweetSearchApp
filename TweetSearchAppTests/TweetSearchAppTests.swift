@@ -5,8 +5,8 @@
 //  Created by Mitsuaki Ihara on 2020/12/02.
 //
 
-import XCTest
 @testable import TweetSearchApp
+import XCTest
 
 class TweetSearchAppTests: XCTestCase {
 

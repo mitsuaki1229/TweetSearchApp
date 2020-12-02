@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var viewModel = SearchModel()
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            SearchBar(text: $viewModel.searchText)
+            TimelineView(tweets: viewModel.tweets, maxId: $viewModel.maxId)
+        }
     }
 }
 
