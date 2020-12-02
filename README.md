@@ -5,6 +5,8 @@ Search tweets and display app sample..
 
 ## Requirement
 
+* [Xcode 12.1](https://developer.apple.com/download/)
+
 ## Install
 
 ## Usage
