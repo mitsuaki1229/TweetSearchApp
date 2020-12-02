@@ -6,6 +6,7 @@ Search tweets and display app sample..
 ## Requirement
 
 * [Xcode 12.1](https://developer.apple.com/download/)
+* [Swiftlint](https://github.com/realm/SwiftLint)
 
 ## Install
 
